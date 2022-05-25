@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
     <script src="script.js" defer></script>
+    <script src="lightbox-plus-jquery.js" defer></script>
     <title>Aesthetic Photo Gallery</title>
 </head>
 
@@ -24,8 +26,10 @@
             <li class="list" data-filter="space">Space</li>
         </ul>
         <div class="product">
-            <div class="itemBox" data-item="books"><img src="images/books/books1.jpg" alt=""></div>
-            <div class="itemBox" data-item="food"><img src="images/food/food1.jpg" alt=""></div>
+            <div class="itemBox" data-item="books"><a href="images/books/books1.jpg" data-lightbox="models"
+                    data-title="Caption1"><img src="images/books/books1.jpg" alt=""></a></div>
+            <div class="itemBox" data-item="food"><a href="images/food/food1.jpg" data-lightbox="models"
+                    data-title="Caption1"><img src="images/food/food1.jpg" alt=""></a></div>
             <div class="itemBox" data-item="nature"><img src="images/nature/nature1.jpg" alt=""></div>
             <div class="itemBox" data-item="poetry"><img src="images/poetry/poetry1.jpg" alt=""></div>
             <div class="itemBox" data-item="religion"><img src="images/religion/religion1.jpg" alt=""></div>
